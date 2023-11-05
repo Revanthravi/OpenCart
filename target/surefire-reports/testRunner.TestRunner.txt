@@ -1,0 +1,30 @@
+-------------------------------------------------------------------------------
+Test set: testRunner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 1.533 s <<< FAILURE! - in testRunner.TestRunner
+Login Data Driven.Login Data Driven #1  Time elapsed: 0.588 s  <<< ERROR!
+java.util.MissingResourceException: Can't find bundle for base name config, locale en_IN
+	at java.base/java.util.ResourceBundle.throwMissingResourceException(ResourceBundle.java:2055)
+	at java.base/java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1689)
+	at java.base/java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1593)
+	at java.base/java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1556)
+	at java.base/java.util.ResourceBundle.getBundle(ResourceBundle.java:857)
+	at stepDefinitions.steps.setup(steps.java:51)
+
+Login Data Driven.Login Data Driven #1  Time elapsed: 0.588 s  <<< ERROR!
+java.lang.NullPointerException
+	at stepDefinitions.steps.tearDown(steps.java:63)
+
+Login Data Driven.Login Data Driven #2  Time elapsed: 0.033 s  <<< ERROR!
+java.util.MissingResourceException: Can't find bundle for base name config, locale en_IN
+	at java.base/java.util.ResourceBundle.throwMissingResourceException(ResourceBundle.java:2055)
+	at java.base/java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1689)
+	at java.base/java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1593)
+	at java.base/java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1556)
+	at java.base/java.util.ResourceBundle.getBundle(ResourceBundle.java:857)
+	at stepDefinitions.steps.setup(steps.java:51)
+
+Login Data Driven.Login Data Driven #2  Time elapsed: 0.033 s  <<< ERROR!
+java.lang.NullPointerException
+	at stepDefinitions.steps.tearDown(steps.java:63)
+
